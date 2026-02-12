@@ -1,0 +1,174 @@
+body{
+   background-color:  rgba(153, 200, 118);
+}
+/*main*/
+#main{
+    width: 1250px;
+    height: 1000px;
+    border: 2px solid grey;
+    margin: 50px  100px ;
+    border-radius: 15px;
+ transition: 1s;
+      background: linear-gradient(to bottom,
+   
+
+    rgba(206, 230, 173),
+    rgba(250, 250, 244)
+  );
+}
+
+#main:hover{
+    box-shadow: 8px 16px 20px black;
+    transition: 1s;
+}
+
+/*title*/
+
+#title{
+    width: 1230px;
+    height: 7dvh;
+    margin: 3px;
+  
+}
+
+#titleH1{
+    text-align: center;
+    color: rgba(31, 59, 111);
+    font-size: 35px;
+    
+}
+
+
+/*navBar*/
+
+#nav{
+    width: 1246px;
+    height: 55px;
+    border: 1px solid rgb(175, 231, 250);
+    background-color: rgb(237, 250, 224);
+    text-align: center;
+    font-size: 25px;
+  
+}
+
+#nav>.anchor{
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+      padding: 7px 7px 4px 12px ;
+      
+}
+
+.anchor:link{
+    color:   rgba(31, 59, 111); 
+}
+.anchor:visited{
+    color:   rgba(31, 59, 111); ;
+}
+
+.anchor:hover{
+    background-color:rgba(41, 68, 111) ;
+    border: 1px solid  rgba(31, 59, 111);
+    color: white;
+    border-radius: 4px;
+    
+  
+}
+
+#reg:hover{
+    background-color: rgba(246, 203, 57);
+    color: rgba(41, 68, 111);
+    transition: 1s;
+    border-radius: 6px;
+    
+}
+
+
+/*Content*/
+
+#content{
+    width: 100%;
+    height: 260px;
+   
+}
+
+#desc{
+    color:rgba(31, 59, 111) ;
+    text-align: center;
+}
+#desc>h1{
+    font-size: 60px;
+    margin: 40px  0px;
+}
+#desc>p{
+    font-size: 22px;
+    padding: 0px 100px;
+}
+
+/*Main Image*/
+
+#mainImg{
+    width: 100%;
+    height: 350px;
+   
+    background-color: whitesmoke;
+}
+
+
+#mainImg>img{
+    margin: 35px 300px;
+}
+
+
+/*Footer*/
+
+
+#mainFoot{
+    background-color: whitesmoke;
+    width: 1236px;
+  height: 200px;
+    
+    margin: 6px;
+    display: flex;
+}
+
+
+.footbox{
+
+    width: 380px;
+   height: 170px;
+   border: 1px solid gray;
+   margin: 15px 30px;
+   display: flex;
+    color:rgba(31, 59, 111) ;
+     transition: 1s;
+}
+.footbox>img{
+    margin: 10px;
+    display: inline-block;
+}
+
+#learn{
+    padding: 6px;
+    font-size: 20px;
+    margin-left:50px ;
+    color:rgba(31, 59, 111) ;
+    background-color: rgba(246, 205, 63);
+    border: 1px solid yellow;
+    border-radius: 5px;
+     transition: 1s;
+}
+#learn:hover{
+    box-shadow: 2px 6px 6px rgb(42, 42, 39);
+     transition: 1s;
+}
+
+.footbox:hover{
+    box-shadow: 8px 16px 16px black;
+     transition: 1s;
+}
+
+#desc2>p{
+    margin: 0px ;
+}
+
