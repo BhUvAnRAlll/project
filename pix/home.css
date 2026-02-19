@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.217);
+    border-radius: 0px 0px 10px 10px;
+   
+}
+
+.button{
+    margin: 0px 20px;
+    flex-basis: 400px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.butn{
+    display: flex;
+    align-items: center;
+    flex-basis: 65px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.join{
+    flex-basis: 45px;
+    border: 1px solid rgba(128, 128, 128, 0.693);
+    border-radius: 10px;
+}
+
+.butn:hover{
+    background-color: rgba(128, 128, 128, 0.109);
+    border-radius: 10px;
+}
+
+.exp{
+    flex-basis: 75px;
+}
+
+.upload{
+    flex-basis: 85px;
+    background-color: rgba(20, 178, 118);
+    border-radius: 10px;
+    color: white;
+}
+
+.upload:hover{
+    background-color: rgba(20, 178, 117, 0.861);
+}
+
+/* main bg */
+
+.bg-slider{
+    width: 95%;
+    height: 400px;
+    margin: 20px 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slider 9s infinite;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*  Opacity Overlay */
+.bg-slider::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.299);
+}
+
+/* Background images change one after another */
+@keyframes slider{
+    0%   { background-image: url("bg1.jpeg"); }
+    33%  { background-image: url("bg3.jpeg"); }
+    66%  { background-image: url("bg2.jpeg"); }
+    100% { background-image: url("bg1.jpeg"); }
+}
+
+
+
+.content{
+    width: 1300px;
+    height: 380px;
+   display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+    gap: 15px;
+
+
+}
+.content>h1{
+    
+    color: white;
+}
+
+.mb1{
+    width: 800px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.mb1 > button{
+    font-size: 16px;
+    width: 80px;
+    height: 35px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.318);
+    color: white;
+}
+
+
+
+.mb1>button:first-child{
+    background-color: white;
+    color: black;
+}
+
+
+.content>input{
+    width: 900px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.41);
+    border: none;
+    border-radius: 20px;
+    
+    font-size: 15px;
+
+
+}
+
+.mb2{
+   height: 40px;
+   width: 880px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.mb2>button{
+    flex-basis: 60px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.439);
+    border: none;
+    border-radius: 10px;
+color: white;
+}
+
+.section1{
+    width: 95%;
+    height: 300px;
+    margin: 10px 2%;
+   margin-top: 70px;
+}
+
+.card1{
+    width: 95%;
+    height: 250px;
+   
+    margin: 10px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    justify-content: space-around;
+}
+.c1{
+    width: 300px;
+    height: 90px;
+    border:  1px solid rgba(128, 128, 128, 0.164);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.desc{
+    margin: 10px;
+    width: 130px;
+    height: 70px;
+   
+  
+}
+
+.desc>h5{
+   padding: 10px 10px 5px 10px;
+   font-weight: 600;
+}
+.desc>p{
+    font-size: 13px;
+   padding-left: 10px;
+   color: rgba(128, 128, 128, 0.392);
+}
+
+
+.decImg{
+    width: 130px;
+    height: 100%;
+    margin: 0px ;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.decImg>img{
+    position: absolute;
+    left: 65px;
+    object-fit: cover;
+transform: rotate(-40deg);
+border-radius: 10px;
+
+}
+
+.decImg>img:hover{
+
+  transform: rotate(-10deg);
+   position: absolute;
+    left: 45px;
+}
+
+
+.decImg>video{
+    width: 110px;
+    height: 140px;
+    position: absolute;
+    left: 60px;
+    object-fit: cover;
+transform: rotate(-40deg);
+border-radius: 10px;
+
+}
+
+.decImg>video:hover{
+
+  transform: rotate(-10deg);
+   position: absolute;
+    left: 45px;
+}
+
+
+
+
+
+
+     
+       
+        
+         
